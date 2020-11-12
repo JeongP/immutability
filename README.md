@@ -122,4 +122,4 @@ fn(o2);
 console.log(o1,o2); // 결과: kim, lee
 ```
 
-
+*출처: https://opentutorials.org/module/4075/24884*
