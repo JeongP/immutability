@@ -84,7 +84,7 @@ console.log(o1); // 첫 줄의 o1 그대로..
 > const: 객체가 가리키는 곳을 바꾸지 못하게 하는 것
 > freeze: 객체의 속성들을 못 바꾸게 하는 것
 
-
+![freeze-vs-const](https://user-images.githubusercontent.com/39121704/98928018-9a1f8100-251c-11eb-9e65-0632f93e65b6.png)
 
 #### Nested Object
 > 객체 안의 객체의 경우
