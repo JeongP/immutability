@@ -30,7 +30,7 @@ c = 2;
 
 primitive : Number,String,Boolean,Null,Undefined,Symbol    
 
-- 같은 값이면 같은 곳을 가리킴. (원시데이터 값은 바뀔수 없다. 불변성을 가짐)
+- 같은 값이면 같은 곳을 가리킴. (원시데이터 값은 딱 정해져 있는 값이니까 ex) 1, 2, true..) (string 은 .. 몰까..)
 ```javascript
 var p1 = 1;
 var p2 = 1;
@@ -38,7 +38,7 @@ console.log(p1,p2,p1===p2); // 참
 ```   
 
 Object : Object, Array, Function
-- 같은 객체를 생성하더라도 따로 저장함.(객체는 값 자체를 prop을 통해서 바꿀 수 있어서 가변적을 성격을 띄기 때문에)
+- 같은 객체를 생성하더라도 따로 저장함.(객체는 딱 어떻다 정해진게 아니고, 만들고싶은대로 만들 수 있으니까(?) 따로 저장해주는거 같음)
 
 ```javascript
 var o1 = {name:'kim'}
